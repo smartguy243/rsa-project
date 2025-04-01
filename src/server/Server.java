@@ -40,7 +40,6 @@ public class Server {
         System.out.println("Сервер: Клиент с ID " + clientId + " успешно зарегистрирован.");
     }
 
-
     public PublicKey getClientPublicKeyFromDatabase(String clientId) {
         return clientPublicKeyDatabase.get(clientId);
     }
